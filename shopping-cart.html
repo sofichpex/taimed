@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="taimed Template">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>taimed | Корзина</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/themify-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/87b36fe859.js" crossorigin="anonymous"></script>
+    <!-- Иконка -->
+<link rel="shortcut icon" href="img\taimedlogo.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Страница загрузки -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Шапка -->
+    <header class="header-section">
+        <div class="header-top">
+            <div class="container">
+                <div class="ht-left">
+                    <div class="mail-service">
+                        <i class=" fa fa-envelope"></i>
+                        taimed@gmail.com
+                    </div>
+                    <div class="phone-service">
+                        <i class=" fa fa-phone"></i>
+                        +7 999 466 56 74
+                    </div>
+                </div>
+                <div class="ht-right">
+                    <a href="login.html" class="login-panel"><i class="fa fa-user"></i>Войти</a>
+                    <div class="lan-selector">
+                        <select class="language_drop" name="countries" id="countries" style="width:300px;">
+                            <option value='yt' data-image="img/flag-1.jpg" data-imagecss="flag yt"
+                                data-title="Russian">Русский</option>
+                            <option value='yu' data-image="img/flag-2.jpg" data-imagecss="flag yu"
+                                data-title="Bangladesh">English </option>
+                                <option value='yu' data-image="img/flag-3.jpg" data-imagecss="flag yu"
+                                data-title="Ukraine">Українська </option>
+                        </select>
+                    </div>
+                    <div class="top-social">
+                        <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                        <a href="https://www.vk.com/"><i class="fa fa-vk"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="inner-header">
+                <div class="row">
+                    <div class="col-lg-2 col-md-2">
+                        <div class="logo">
+                            <a href="./index.html">
+                                <img src="img\logo1.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-3">
+                        <div class="advanced-search">
+                            <div class="input-group">
+                                <input type="text" placeholder="Что вам нужно?">
+                                <button type="button"><i class="ti-search"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 text-right col-md-3">
+                        <ul class="nav-right">
+                            <li class="heart-icon">
+                                <a href="#">
+                                    <i class="icon_heart_alt"></i>
+                                    <span>4</span>
+                                </a>
+                            </li>
+                            <li class="cart-icon">
+                                <a href="shopping-cart.html">
+                                    <i class="icon_bag_alt"></i>
+                                    <span>3</span>
+                                </a>
+                                <div class="cart-hover">
+                                    <div class="select-items">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="si-pic"><img src="img\products\catalogue\shopplant-1.jpg" alt=""></td>
+                                                    <td class="si-text">
+                                                        <div class="product-selected">
+                                                            <p>590 руб x 1</p>
+                                                            <h6>Алоэ вера</h6>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="si-pic"><img src="img\products\catalogue\shopplant-2.jpg" alt=""></td>
+                                                    <td class="si-text">
+                                                        <div class="product-selected">
+                                                            <p>771 руб x 1</p>
+                                                            <h6>Хойя Пубикаликс</h6>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="select-total">
+                                        <span>Итого:</span>
+                                        <h5>1 551 руб</h5>
+                                    </div>
+                                    <div class="select-button">
+                                        <a href="shopping-cart.html" class="primary-btn view-card">Открыть корзину</a>
+                                        <a href="check-out.html" class="primary-btn checkout-btn">Заказать</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-item">
+            <div class="container">
+                <div class="nav-depart">
+                    <div class="depart-btn">
+                        <i class="ti-menu"></i>
+                        <span>Категории</span>
+                        <ul class="depart-hover">
+                            <li><a href="shop.html">Все</a></li>
+                            <li><a href="sale.html">Распродажа</a></li>
+                            <li><a href="trend.html">В тренде </a></li>
+                            <li><a href="easycare.html">Простые в уходе </a></li>
+                            <li><a href="shop-pot.html">Горшки</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <nav class="nav-menu mobile-menu">
+                    <ul>
+                        <li><a href="./index.html">Главная</a></li>
+                        <li><a href="./shop.html">Каталог</a></li>
+                        <li><a href="#">Коллекции</a>
+                            <ul class="dropdown">
+                                <li><a href="#">Зодиакальная</a></li>
+                                <li><a href="#">Кактусы</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./aboutus.html">О нас</a></li>
+                        <li><a href="login.html">Профиль</a>
+                            <ul class="dropdown">
+                                <li class="active"><a href="./shopping-cart.html">Корзина</a></li>
+                                <li><a href="./register.html">Зарегистрироваться</a></li>
+                                <li><a href="./login.html">Войти</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div id="mobile-menu-wrap"></div>
+            </div>
+        </div>
+    </header>
+    <!-- Конец шапки -->
+
+    <!-- Разделы -->
+    <div class="breacrumb-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb-text product-more">
+                        <a href="./home.html"><i class="fa fa-home"></i> Главная</a>
+                        <a href="./shop.html">Каталог</a>
+                        <span>Корзина</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Конец разделов -->
+
+    <!-- Карта товаров -->
+    <section class="shopping-cart spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="cart-table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Изображение</th>
+                                    <th class="p-name">Название продукта</th>
+                                    <th>Цена</th>
+                                    <th>Количество</th>
+                                    <th>Итого</th>
+                                    <th><i class="ti-close"></i></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="cart-pic first-row"><a href="aloe.html"><img src="img\shopping-cart\product-1.jpg" alt=""></a></td>
+                                    <td class="cart-title first-row">
+                                        <a href="aloe.html"><h5>Алоэ вера</h5></a>
+                                    </td>
+                                    <td class="p-price first-row">590 руб</td>
+                                    <td class="qua-col first-row">
+                                        <div class="quantity">
+                                            <div class="pro-qty">
+                                                <input type="text" value="1">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="total-price first-row">590 руб</td>
+                                    <td class="close-td first-row"><i class="ti-close"></i></td>
+                                </tr>
+                                <tr>
+                                    <td class="cart-pic"><img src="img\shopping-cart\product-2.jpg" alt=""></td>
+                                    <td class="cart-title">
+                                        <h5>Хойя Пубикаликс</h5>
+                                    </td>
+                                    <td class="p-price">771 руб</td>
+                                    <td class="qua-col">
+                                        <div class="quantity">
+                                            <div class="pro-qty">
+                                                <input type="text" value="1">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="total-price">771 руб</td>
+                                    <td class="close-td"><i class="ti-close"></i></td>
+                                </tr>
+                                <tr>
+                                    <td class="cart-pic"><img src="img\shopping-cart\product-3.jpg" alt=""></td>
+                                    <td class="cart-title">
+                                        <h5>Бегония Полка Дот</h5>
+                                    </td>
+                                    <td class="p-price">190 руб</td>
+                                    <td class="qua-col">
+                                        <div class="quantity">
+                                            <div class="pro-qty">
+                                                <input type="text" value="1">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="total-price">190 руб</td>
+                                    <td class="close-td"><i class="ti-close"></i></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                           
+                            <div class="discount-coupon">
+                                <h6>Промокод</h6>
+                                <form action="#" class="coupon-form">
+                                    <input type="text" placeholder="Введите свой промокод">
+                                    <button type="submit" class="site-btn coupon-btn">применить</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 offset-lg-4">
+                            <div class="proceed-checkout">
+                                <ul>
+                                    <li class="subtotal">Итого <span>1 551 руб</span></li>
+                                    <li class="cart-total">К оплате<span>1 551 руб</span></li>
+                                </ul>
+                                <a href="check-out.html" class="proceed-btn">ПЕРЕЙТИ К ОФОРМЛЕНИЮ ЗАКАЗА</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Конец карты товаров -->
+
+    <!-- Подвал -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="footer-left">
+                        <div class="footer-logo">
+                            <a href="#"><img src="img\logo1.svg" alt=""></a>
+                        </div>
+                        <ul>
+                            <li>Адресс: Санкт-Петербург ул. Заводская 17</li>
+                            <li>Телефон: +7 999 466 56 74</li>
+                            <li>Почта: taimed@gmail.com</li>
+                        </ul>
+                        <div class="footer-social">
+                            <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                            <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.vk.com/"><i class="fa fa-vk"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 offset-lg-1">
+                    <div class="footer-widget">
+                        <h5>Информация</h5>
+                        <ul>
+                            <li><a href="aboutus.html">О нас</a></li>
+                            <li><a href="check-out.html">Заказать</a></li>
+                            <li><a href="contact.html">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="footer-widget">
+                        <h5>Аккаунт</h5>
+                        <ul>
+                            <li><a href="login.html">Мой аккаунт</a></li>
+                            <li><a href="shopping-cart.html">Корзина</a></li>
+                            <li><a href="shop.html">Магазин</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="newslatter-item">
+                        <h5>Подпишитесь на нашу рассылку</h5>
+                        <p>Получайте по электронной почте обновления о наших последних продуктах и специальных предложений.</p>
+                        <form action="#" class="subscribe-form">
+                            <input type="text" placeholder="Введите свою почту">
+                            <button type="button">Подписаться</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-reserved">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copyright-text">
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> Все права защищены — интернет-магазин комнатных растений и цветов в горшках taimed</a>
+                        </div>
+                        <div class="payment-pic">
+                            <img src="img/payment-method.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Конец подвала -->
+
+    <!-- JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery.zoom.min.js"></script>
+    <script src="js/jquery.dd.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

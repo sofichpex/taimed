@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="taimed Template">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>taimed | Интернет-магазин комнатных растений</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/themify-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/87b36fe859.js" crossorigin="anonymous"></script>
+    <!-- Иконка -->
+<link rel="shortcut icon" href="img\taimedlogo.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Страница загрузки -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Шапка -->
+    <header class="header-section">
+        <div class="header-top">
+            <div class="container">
+                <div class="ht-left">
+                    <div class="mail-service">
+                        <i class=" fa fa-envelope"></i>
+                        taimed@gmail.com
+                    </div>
+                    <div class="phone-service">
+                        <i class=" fa fa-phone"></i>
+                        +7 999 466 56 74
+                    </div>
+                </div>
+                <div class="ht-right">
+                    <a href="login.html" class="login-panel"><i class="fa fa-user"></i>Войти</a>
+                    <div class="lan-selector">
+                        <select class="language_drop" name="countries" id="countries" style="width:300px;">
+                            <option value='yt' data-image="img/flag-1.jpg" data-imagecss="flag yt"
+                                data-title="Russian">Русский</option>
+                            <option value='yu' data-image="img/flag-2.jpg" data-imagecss="flag yu"
+                                data-title="Bangladesh">English </option>
+                                <option value='yu' data-image="img/flag-3.jpg" data-imagecss="flag yu"
+                                data-title="Ukraine">Українська </option>
+                        </select>
+                    </div>
+                    <div class="top-social">
+                        <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                        <a href="https://www.vk.com/"><i class="fa fa-vk"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="inner-header">
+                <div class="row">
+                    <div class="col-lg-2 col-md-2">
+                        <div class="logo">
+                            <a href="./index.html">
+                                <img src="img\logo1.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-3">
+                        <div class="advanced-search">
+                            <div class="input-group">
+                                <input type="text" placeholder="Что вам нужно?">
+                                <button type="button"><i class="ti-search"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 text-right col-md-3">
+                        <ul class="nav-right">
+                            <li class="heart-icon">
+                                <a href="#">
+                                    <i class="icon_heart_alt"></i>
+                                    <span>4</span>
+                                </a>
+                            </li>
+                            <li class="cart-icon">
+                                <a href="shopping-cart.html">
+                                    <i class="icon_bag_alt"></i>
+                                    <span>3</span>
+                                </a>
+                                <div class="cart-hover">
+                                    <div class="select-items">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="si-pic"><img src="img\products\catalogue\shopplant-1.jpg" alt=""></td>
+                                                    <td class="si-text">
+                                                        <div class="product-selected">
+                                                            <p>590 руб x 1</p>
+                                                            <h6>Алоэ вера</h6>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="si-pic"><img src="img\products\catalogue\shopplant-2.jpg" alt=""></td>
+                                                    <td class="si-text">
+                                                        <div class="product-selected">
+                                                            <p>771 руб x 1</p>
+                                                            <h6>Хойя Пубикаликс</h6>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="select-total">
+                                        <span>Итого:</span>
+                                        <h5>1 551 руб</h5>
+                                    </div>
+                                    <div class="select-button">
+                                        <a href="shopping-cart.html" class="primary-btn view-card">Открыть корзину</a>
+                                        <a href="check-out.html" class="primary-btn checkout-btn">Заказать</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-item">
+            <div class="container">
+                <div class="nav-depart">
+                    <div class="depart-btn">
+                        <i class="ti-menu"></i>
+                        <span>Категории</span>
+                        <ul class="depart-hover">
+                            <li><a href="shop.html">Все</a></li>
+                            <li><a href="sale.html">Распродажа</a></li>
+                            <li><a href="trend.html">В тренде </a></li>
+                            <li><a href="easycare.html">Простые в уходе </a></li>
+                            <li><a href="shop-pot.html">Горшки</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <nav class="nav-menu mobile-menu">
+                    <ul>
+                        <li class="active"><a href="./index.html">Главная</a></li>
+                        <li><a href="./shop.html">Каталог</a></li>
+                        <li><a href="#">Коллекции</a>
+                            <ul class="dropdown">
+                                <li><a href="#">Зодиакальная</a></li>
+                                <li><a href="#">Кактусы</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./aboutus.html">О нас</a></li>
+                        <li><a href="login.html">Профиль</a>
+                            <ul class="dropdown">
+                                <li><a href="./shopping-cart.html">Корзина</a></li>
+                                <li><a href="./register.html">Зарегистрироваться</a></li>
+                                <li><a href="./login.html">Войти</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div id="mobile-menu-wrap"></div>
+            </div>
+        </div>
+    </header>
+    <!-- Конец шапки -->
+
+    <!-- Главный баннер -->
+    <section class="hero-section">
+        <div class="hero-items owl-carousel">
+            <div class="single-hero-items set-bg" data-setbg="img/main-banner-1.jpg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <span>Овен</span>
+                            <h1>Зодиакальная коллекция</h1>
+                            <p>Получите скидку 25% на растения Зодиака Овен с кодом "Aries"</p>
+                            <a href="#" class="primary-btn">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-hero-items set-bg" data-setbg="img/main-banner-2.jpg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <span>Кактусы</span>
+                            <h1>Коллекция кактусов!</h1>
+                            <p>Наша новая коллекция кактусов</p>
+                            <a href="#" class="primary-btn">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Конец галвного баннера -->
+
+    <!-- Мини баннеры -->
+    <div class="banner-section spad">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="single-banner">
+                        <img src="img/banner-1.jpg" alt="">
+                        <div class="inner-text">
+                            <h4>Легкие в уходе</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-banner">
+                        <img src="img/banner-2.jpg" alt="">
+                        <div class="inner-text">
+                            <h4>Редкие</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-banner">
+                        <img src="img/banner-3.jpg" alt="">
+                        <div class="inner-text">
+                            <h4>В тренде</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Конец мини баннеров -->
+
+    <!-- Баннер комнатных растений -->
+    <section class="houseplants-banner spad">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="product-large set-bg" data-setbg="img/products/live-large.jpg">
+                        <h2>Комнатные растения</h2>
+                        <a href="#">Подробнее</a>
+                    </div>
+                </div>
+                <div class="col-lg-8 offset-lg-1">
+                    <div class="filter-control">
+                        <ul>
+                            <li class="active">Рекомендуемые</li>
+                            <li>Новые поступления</li>
+                            <li>Распродажа</li>
+                        </ul>
+                    </div>
+                    <div class="product-slider owl-carousel">
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="img/products/plant-1.jpg" alt="">
+                                <div class="sale">Скидка</div>
+                                <div class="icon">
+                                    <i class="icon_heart_alt"></i>
+                                </div>
+                                <ul>
+                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                    <li class="quick-view"><a href="#">Посмотреть</a></li>
+                                    <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="pi-text">
+                                <a href="aloe.html">
+                                    <h5>Алоэ вера</h5>
+                                </a>
+                                <div class="product-price">
+                                    590 руб
+                                    <span>760 руб</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="img/products/plant-2.jpg" alt="">
+                                <div class="icon">
+                                    <i class="icon_heart_alt"></i>
+                                </div>
+                                <ul>
+                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                    <li class="quick-view"><a href="#">Посмотреть</a></li>
+                                    <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="pi-text">
+                                <a href="#">
+                                    <h5>Эхеверия</h5>
+                                </a>
+                                <div class="product-price">
+                                    750 руб
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="img/products/plant-3.jpg" alt="">
+                                <div class="icon">
+                                    <i class="icon_heart_alt"></i>
+                                </div>
+                                <ul>
+                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                    <li class="quick-view"><a href="#">Посмотреть</a></li>
+                                    <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="pi-text">
+                                <a href="#">
+                                    <h5>Антуриум</h5>
+                                </a>
+                                <div class="product-price">
+                                    978 руб
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="img/products/plant-4.jpg" alt="">
+                                <div class="icon">
+                                    <i class="icon_heart_alt"></i>
+                                </div>
+                                <ul>
+                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                    <li class="quick-view"><a href="#">Посмотреть</a></li>
+                                    <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="pi-text">
+                                <a href="#">
+                                    <h5>Бегония</h5>
+                                </a>
+                                <div class="product-price">
+                                    290 руб
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Конец баннера комнатных растений -->
+
+    <!-- Товар месяца-->
+    <section class="deal-of-week set-bg spad" data-setbg="img/time-bg.jpg">
+        <div class="container">
+            <div class="col-lg-6 text-center">
+                <div class="section-title">
+                    <h2>Товар месяца</h2>
+                    <p>Люди, рожденные под знаком Овна, трудолюбивы, целеустремленны и амбициозны. Как и вьющееся растение Потос.
+                         Потос и Овен неприхотливы, постоянно растут и целеустремленны.</p>
+                    <div class="product-price">
+                        1370 руб
+                        <span>/ Эпипремнум Голден Потос</span>
+                    </div>
+                </div>
+                <div class="countdown-timer" id="countdown">
+                    <div class="cd-item">
+                        <span>26</span>
+                        <p>дней</p>
+                    </div>
+                    <div class="cd-item">
+                        <span>12</span>
+                        <p>часов</p>
+                    </div>
+                    <div class="cd-item">
+                        <span>40</span>
+                        <p>минут</p>
+                    </div>
+                    <div class="cd-item">
+                        <span>52</span>
+                        <p>секунд</p>
+                    </div>
+                </div>
+                <a href="#" class="primary-btn">Купить</a>
+            </div>
+        </div>
+    </section>
+    <!-- Конец товара месяца -->
+
+    <!-- Баннер горшков -->
+    <section class="pot-banner spad">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="filter-control">
+                        <ul>
+                            <li class="active">Рекомендуемые</li>
+                            <li>Распродажа</li>
+                        </ul>
+                    </div>
+                    <div class="product-slider owl-carousel">
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="img/products/pot-1.jpg" alt="">
+                                <div class="sale">Скидка</div>
+                                <div class="icon">
+                                    <i class="icon_heart_alt"></i>
+                                </div>
+                                <ul>
+                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                    <li class="quick-view"><a href="#">Посмотреть</a></li>
+                                    <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="pi-text">
+                                <a href="#">
+                                    <h5>Горшок в форме цилиндра
+                                    </h5>
+                                </a>
+                                <div class="product-price">
+                                    1470
+                                    <span>1865 руб</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="img/products/pot-2.jpg" alt="">
+                                <div class="icon">
+                                    <i class="icon_heart_alt"></i>
+                                </div>
+                                <ul>
+                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                    <li class="quick-view"><a href="#">Посмотреть</a></li>
+                                    <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="pi-text">
+                                <a href="#">
+                                    <h5>Горшок "Сад"</h5>
+                                </a>
+                                <div class="product-price">
+                                    890 руб
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="img/products/pot-3.jpg" alt="">
+                                <div class="icon">
+                                    <i class="icon_heart_alt"></i>
+                                </div>
+                                <ul>
+                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                    <li class="quick-view"><a href="#">Посмотреть</a></li>
+                                    <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="pi-text">
+                                <a href="#">
+                                    <h5>Опаловая ваза</h5>
+                                </a>
+                                <div class="product-price">
+                                    1295 руб
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="img/products/pot-4.jpg" alt="">
+                                <div class="icon">
+                                    <i class="icon_heart_alt"></i>
+                                </div>
+                                <ul>
+                                    <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                                    <li class="quick-view"><a href="#">Посмотреть</a></li>
+                                    <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="pi-text">
+                                <a href="#">
+                                    <h5>Горшок "Рябь"</h5>
+                                </a>
+                                <div class="product-price">
+                                    634 руб
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 offset-lg-1">
+                    <div class="product-large set-bg m-large" data-setbg="img/products/potbanner.jpg">
+                        <h2>Горшки</h2>
+                        <a href="#">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Конец баннера горшков -->
+
+    <!-- Инста -->
+    <div class="instagram-photo">
+        <div class="insta-item set-bg" data-setbg="img/insta-1.jpg">
+            <div class="inside-text">
+                <i class="ti-instagram"></i>
+                <h5><a href="#">taimed_shop</a></h5>
+            </div>
+        </div>
+        <div class="insta-item set-bg" data-setbg="img/insta-2.jpg">
+            <div class="inside-text">
+                <i class="ti-instagram"></i>
+                <h5><a href="#">taimed_shop</a></h5>
+            </div>
+        </div>
+        <div class="insta-item set-bg" data-setbg="img/insta-3.jpg">
+            <div class="inside-text">
+                <i class="ti-instagram"></i>
+                <h5><a href="#">taimed_shop</a></h5>
+            </div>
+        </div>
+        <div class="insta-item set-bg" data-setbg="img/insta-4.jpg">
+            <div class="inside-text">
+                <i class="ti-instagram"></i>
+                <h5><a href="#">taimed_shop</a></h5>
+            </div>
+        </div>
+        <div class="insta-item set-bg" data-setbg="img/insta-5.jpg">
+            <div class="inside-text">
+                <i class="ti-instagram"></i>
+                <h5><a href="#">taimed_shop</a></h5>
+            </div>
+        </div>
+        <div class="insta-item set-bg" data-setbg="img/insta-6.jpg">
+            <div class="inside-text">
+                <i class="ti-instagram"></i>
+                <h5><a href="#">taimed_shop</a></h5>
+            </div>
+        </div>
+    </div>
+    <!--    Конец Инсты -->
+
+    <!-- Выгода -->
+            <div class="benefit-items">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="single-benefit">
+                            <div class="sb-icon">
+                                <img src="img/icon-1.png" alt="">
+                            </div>
+                            <div class="sb-text">
+                                <h6>БЕСПЛАТНАЯ ДОСТАВКА</h6>
+                                <p>При заказе свыше 5 000 руб</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="single-benefit">
+                            <div class="sb-icon">
+                                <img src="img/icon-2.png" alt="">
+                            </div>
+                            <div class="sb-text">
+                                <h6>СВОЕВРЕМЕННАЯ ДОСТАВКА</h6>
+                                <p>В течении недели</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="single-benefit">
+                            <div class="sb-icon">
+                                <img src="img/icon-3.png" alt="">
+                            </div>
+                            <div class="sb-text">
+                                <h6>БЕЗОПАСНАЯ ОПЛАТА </h6>
+                                <p>100% защищенность</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Конец выгоды -->
+
+
+    <!-- Подвал -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="footer-left">
+                        <div class="footer-logo">
+                            <a href="#"><img src="img\logo1.svg" alt=""></a>
+                        </div>
+                        <ul>
+                            <li>Адресс: Санкт-Петербург ул. Заводская 17</li>
+                            <li>Телефон: +7 999 466 56 74</li>
+                            <li>Почта: taimed@gmail.com</li>
+                        </ul>
+                        <div class="footer-social">
+                            <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                            <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.vk.com/"><i class="fa fa-vk"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 offset-lg-1">
+                    <div class="footer-widget">
+                        <h5>Информация</h5>
+                        <ul>
+                            <li><a href="aboutus.html">О нас</a></li>
+                            <li><a href="check-out.html">Заказать</a></li>
+                            <li><a href="contact.html">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="footer-widget">
+                        <h5>Аккаунт</h5>
+                        <ul>
+                            <li><a href="login.html">Мой аккаунт</a></li>
+                            <li><a href="shopping-cart.html">Корзина</a></li>
+                            <li><a href="shop.html">Магазин</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="newslatter-item">
+                        <h5>Подпишитесь на нашу рассылку</h5>
+                        <p>Получайте по электронной почте обновления о наших последних продуктах и специальных предложений.</p>
+                        <form action="#" class="subscribe-form">
+                            <input type="text" placeholder="Введите свою почту">
+                            <button type="button">Подписаться</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-reserved">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copyright-text">
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> Все права защищены — интернет-магазин комнатных растений и цветов в горшках taimed</a>
+                        </div>
+                        <div class="payment-pic">
+                            <img src="img/payment-method.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Конец подвала -->
+
+    <!-- JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery.zoom.min.js"></script>
+    <script src="js/jquery.dd.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+
+</html>
